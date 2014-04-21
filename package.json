@@ -17,9 +17,6 @@
     "devDependencies": {
         "mocha": "0.3.x"
     },
-    "scripts": {
-        "test": "mocha"
-    },
     "publishConfig": {
         "tag": "latest"
     },
