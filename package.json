@@ -1,0 +1,31 @@
+{
+    "name": "freshbooksjs",
+    "description": "Node.js wrapper for the FreshBooks (www.freshbooks.com) API",
+    "version": "0.1.0",
+    "main": "index.js",
+    "engines": {
+        "node": ">= 0.10.0"
+    },
+    "author": {
+        "name": "Sabra Pratt",
+        "email": "<pratt.sabra@gmail.com>"
+    },
+    "dependencies": {
+        "xml2js": "0.4.2",
+        "request": "2.34.0"
+    },
+    "devDependencies": {
+        "mocha": "0.3.x"
+    },
+    "scripts": {
+        "test": "mocha"
+    },
+    "publishConfig": {
+        "tag": "latest"
+    },
+    "homepage": "https://github.com/prattsj/freshbooks.js",
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/prattsj/freshbooks.js.git"
+    }
+}
