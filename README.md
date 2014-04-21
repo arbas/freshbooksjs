@@ -29,7 +29,7 @@ var freshbooks = new FreshBooks('USER_URL', 'USER_TOKEN');
 
 freshbooks.estimate.list(function(error, estimates) {
 
-    /* Stuff & things (estimates returned in an array) */
+    /* do things */
 });
 
 ```
@@ -38,7 +38,7 @@ Get a *specific* invoice:
 ```javascript
 freshbooks.estimate.get(1, function(error, estimate) {
 
-    /* Bells & whistles (data returned as a single estimate object) */
+    /* moar things */
 });
 
 ```
@@ -47,7 +47,7 @@ Update an estimate:
 ```javascript
 freshbooks.estimate.update(data, function(error, estimate) {
 
-    /* Livin' it up... (data returned as a single estimate object) */
+    /* aw snap */
 });
 
 ```
@@ -56,7 +56,7 @@ Create a new invoice:
 ```javascript
 freshbooks.estimate.create(data, function(error, estimate) {
 
-    /* Aw snap... (data returned as a single estimate object) */
+    /* here we go */
 });
 
 ```
@@ -65,7 +65,7 @@ Delete an estimate:
 ```javascript
 freshbooks.estimate.delete(1, function(error) {
 
-    /* Doin' the thang */
+    /* that's what's up */
 });
 
 ```
