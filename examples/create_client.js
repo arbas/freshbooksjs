@@ -14,12 +14,20 @@ var freshbooks = new FreshBooks(apiUrl, apiToken);
 
 var data = {
     email: 'test@testaddy.com',
-    contacts: {
-        contact: [
-            {
+    contacts: function(){
+        return [{
+            contact: {
+                first_name: 'first',
+                last_name: 'last',
                 email: 'another.test@testaddy.com'
             }
-        ]
+        },{
+            contact: {
+                first_name: 'john',
+                last_name: 'done',
+                email: 'second.email@testaddy.com'
+            }
+        }]
     }
 };
 
