@@ -1,7 +1,7 @@
 {
     "name": "freshbooksjs",
     "description": "Node.js wrapper for the FreshBooks (www.freshbooks.com) API",
-    "version": "0.1.1",
+    "version": "0.2.0",
     "main": "index.js",
     "engines": {
         "node": ">= 0.10.0"
@@ -12,6 +12,7 @@
     },
     "dependencies": {
         "xml2js": "0.4.2",
+        "xmlbuilder": ">=0.4.2",
         "request": "2.34.0"
     },
     "devDependencies": {
