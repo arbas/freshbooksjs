@@ -1,3 +1,6 @@
+__*** Sadness. This repo is no longer being maintained. :( ***__  
+_If you're interested in taking over, please let me know and we can talk about transferring things..._
+
 # freshbooksjs
 
 A node.js wrapper for the FreshBooks API.
